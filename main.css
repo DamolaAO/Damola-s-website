@@ -1,0 +1,110 @@
+div.unit1 {
+  text-align: center;
+}
+
+div.navbar {
+  text-align: left;
+  margin: -15px;
+  padding: 25px 1110px 25px 15px;
+  background-color: rgb(238, 236, 236);
+  position: fixed;
+}
+
+div.container {
+display: flex;
+min-height: 1.5vh;
+flex-direction: row;
+}
+
+p {
+  box-sizing: border-box;
+  margin-left: 250px;
+  margin-right: 250px;
+  padding: 10px;
+  border-style: solid;
+  border-color: black;
+  background-color: rgb(238, 236, 236, 0.9);
+}
+
+body {
+  text-align: center;
+  font-family: 'Arial', monospace;
+  background-image: url("Images/background.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+html {
+  scroll-behavior: smooth;
+
+}
+
+h2, h1 {
+  box-sizing: border-box;
+  margin-left: 250px;
+  margin-right: 250px;
+  padding: 10px;
+  border-style: solid;
+  border-color: black;
+  color: black;
+  background-color: rgb(238, 236, 236, 0.9);
+}
+
+a.nav:link {
+  font-weight: bold;
+  color: rgb(88, 88, 88);
+  background-color: transparent;
+  text-decoration: none;
+}
+a.nav:visited {
+  color: rgb(88, 88, 88);
+  background-color: transparent;
+  text-decoration: none;
+}
+a.nav:hover {
+  color: black;
+  background-color: transparent;
+  text-decoration: underline;
+}
+a.nav:active {
+  color: rgb(88, 88, 88);
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+#twitch {
+  height: 100px;
+  width: 5%;
+}
+
+#youtube {
+  height: 100px;
+  width: 5%;
+}
+
+#gmail {
+  height: 100px;
+  width: 7%;
+}
+
+#linkedin {
+  height: 102px;
+  width: 7%;
+}
+
+#WaW, #BO2, #MW2 {
+  height: 120px;
+}
+
+#Destiny {
+  height: 120px;
+}
+
+#League {
+  height: 120px;
+}
+
+#CN {
+  height: 80px;
+  width: auto;
+}
